@@ -1,0 +1,29 @@
+body {
+background-color: rgba(151, 163, 229, 0.767);
+margin: 100px;
+padding: 10px;
+border: 10px dotted rgba(236, 158, 236, 0.603);
+}
+
+p{font-family: ; 'Courier';
+background-color: white}
+
+nav li {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+#hero {
+    width: 700px;
+}
+
+.lower {
+    display: inline-block;
+    text-align: center;
+}
+
+footer {
+display: inline-block;
+text-align: center;
+}
