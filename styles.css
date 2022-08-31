@@ -5,7 +5,7 @@ padding: 10px;
 border: 10px dotted rgba(236, 158, 236, 0.603);
 }
 
-p{font-family: ; 'Courier';
+p{font-family: 'Ariel';
 background-color: white}
 
 nav li {
@@ -16,6 +16,8 @@ nav li {
 
 #hero {
     width: 700px;
+    margin: 2px;
+    text-align: center;
 }
 
 .lower {
@@ -31,4 +33,12 @@ nav li {
 footer {
 display: inline-block;
 text-align: right;
+}
+
+.container1 {
+    display:inline-block;
+}
+
+.container2 {
+    display: inline-block;
 }
