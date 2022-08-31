@@ -23,7 +23,12 @@ nav li {
     text-align: center;
 }
 
+.mid {
+    display: inline-block;
+    text-align: center;
+}
+
 footer {
 display: inline-block;
-text-align: center;
+text-align: right;
 }
