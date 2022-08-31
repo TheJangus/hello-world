@@ -1,22 +1,24 @@
 body {
 background-color: rgba(151, 163, 229, 0.767);
-margin: 100px;
+margin: 50px;
 padding: 10px;
 border: 10px dotted rgba(236, 158, 236, 0.603);
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
 }
 
-p{font-family: 'Ariel';
-background-color: white}
+header {
+    background-color: rgba(73, 187, 187, 0.434);
+}
 
 nav li {
     display: inline-block;
-    margin-top: 30px;
-    margin-right: 20px;
+    padding: 10px;
 }
 
 #hero {
     width: 700px;
-    margin: 2px;
+    justify-content: center;
     text-align: center;
 }
 
@@ -41,4 +43,9 @@ text-align: right;
 
 .container2 {
     display: inline-block;
+}
+
+main {
+    display: grid;
+    place-items: center;
 }
