@@ -5,7 +5,7 @@ console.log('Hello world!');
 let x = 10;
 console.log(x);
 
-let usersName = prompt('What is your car maker?');
+let usersName = prompt('What is your favorite car brand?');
 let message;
 
 if (usersName == 'Porsche'){
