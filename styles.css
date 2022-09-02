@@ -75,20 +75,11 @@ main {
 #bottom {
     position: bottom;
     bottom: 20px;
+    src: "Cars/steering-wheel.png" ;
     transform: translateX(-50%);
     width: 200px;
     height: 200px;
 }
-#bottom:hover{
-    transform: rotateY(-15deg);
-}
-
-        constant divEl = document.getElementById('bottom');
-
-        let degrees = 0;
-
-        
-        divEl.addEventListener('mousemove', onChange);
 
 
  

@@ -23,10 +23,23 @@ document.write(message);
 
 
 
+
+
+const divEl = document.getElementById('bottom');
+
+let degrees = 0;
+
 function onChange(event) {
     const percentX = event.offsetX / 396;
     const percentY = event.offsetY / 396;
-    degrees += event.movementY;
-    divEl.style.transform = 'translateX(-50%) rotate(${degrees}deg)';
-}
 
+    degrees += event.movementY;
+    divEl.style.transform = `translateX(-50%) rotate(${degrees}deg)`;
+      }
+
+      function reset() {
+        divEl.style.transform = `translateX(-50%)`;
+        degrees = 0;
+      }
+
+    divEl.addEventListener('mousemove', onChange);
