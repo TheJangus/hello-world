@@ -45,9 +45,9 @@ function onChange(event) {
     divEl.addEventListener('mousemove', onChange);
 
     function showWheels(){
-        let usersNum = prompt('How many wheels would you rate my page? 1-4');
+        let usersNum = prompt('How many wheels do you enjoy Porsches? 1-4');
         
         
         for (let i = 0; i < usersNum && i < 4; i++){
-          document.write('<img src="rim-tire.png" alt="Fuchs wheels" class="wheels"/>');
+          document.write('<img src="Cars/rim tire.png" alt="Fuchs wheels" class="wheels"/>');
         }}
