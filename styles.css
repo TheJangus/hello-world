@@ -37,15 +37,87 @@ display: inline-block;
 text-align: right;
 }
 
+.containermain{
+    width: 700px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.imagemain{
+    width: 100%;
+    height: 100%;
+    background-image: src="Cars/20200530_145227.jpg";
+    background-position: center;
+    background-size: cover;
+
+    transition: 0.3s ease-in-out;
+}
+
+.imagemain:hover{
+    transform: rotate(-15deg) scale(2.25);
+}
+
 .container1 {
     display:inline-block;
+    overflow: hidden;
 }
 
 .container2 {
     display: inline-block;
+    overflow: hidden;
 }
 
 main {
     display: grid;
     place-items: center;
 }
+
+#bottom {
+    position: bottom;
+    bottom: 20px;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+}
+#bottom:hover{
+    transform: rotateY(-15deg);
+}
+
+        constant divEl = document.getElementById('bottom');
+
+        let degrees = 0;
+
+        
+        divEl.addEventListener('mousemove', onChange);
+
+
+ 
+/* unvisited link */
+a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+
+    div {
+        background-color: yellow;
+        padding: 20px;
+        display: none;
+      }
+        
+      span:hover + div {
+        display: block;
+      }

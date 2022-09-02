@@ -20,3 +20,13 @@ else {
     message = 'Good choice, but Porsche is my favorite';
 }
 document.write(message);
+
+
+
+function onChange(event) {
+    const percentX = event.offsetX / 396;
+    const percentY = event.offsetY / 396;
+    degrees += event.movementY;
+    divEl.style.transform = 'translateX(-50%) rotate(${degrees}deg)';
+}
+
