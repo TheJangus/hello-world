@@ -112,3 +112,7 @@ a:link {
       span:hover + div {
         display: block;
       }
+
+      .wheels {
+        width: 75px;
+      }
