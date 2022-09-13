@@ -121,5 +121,6 @@ a:link {
 
       #garage {
         width: 400px;
+        display: inline-block;
         place-items: center;
       }
